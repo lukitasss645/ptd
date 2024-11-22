@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+header{
+    background-color: grey;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 25px;
+    margin-top: 25px;
+    
+}
+
+.tarjeta{
+    background-color: gray;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.img{
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.titulo{
+    color: red;
+}
+
+.autor{
+    color: blue;
+}
