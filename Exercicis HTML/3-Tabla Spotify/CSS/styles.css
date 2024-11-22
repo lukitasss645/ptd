@@ -1,0 +1,56 @@
+.tabla1{  width: 100%;   
+        background-color: black;
+}
+
+.nombre{
+    font-size: 18px;
+    color: white;
+    
+}
+
+.primero{
+    color: white;
+    background-color: green;
+}
+
+.numero{
+    color: white;
+    
+}
+
+.titulo{
+    color: white;
+    background-color: green;
+}
+
+.album{
+      color: white;
+      background-color: green;
+}
+
+.Fecha{
+    background-color: green;
+    color: white;
+}
+
+.artista{
+    font-size: 13px;
+    color: white;
+    }
+
+.duracion{
+    color: white;
+    background-color: green;
+}
+
+.album1{
+    color: white;
+}
+
+.fecha1{
+    color: white;
+}
+
+.duracion1{
+    color: white;
+}
