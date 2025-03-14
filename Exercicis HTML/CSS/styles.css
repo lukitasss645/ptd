@@ -1,0 +1,33 @@
+.img{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    display: block;
+    height: 70px;
+}
+
+header{
+    background-color: black;
+}
+
+main{
+    background-color: black;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.titulo{
+    color: red;
+}
+
+.boton{
+     width: 300px;
+     background-color: red;
+     color: white;
+     border-width: 3px;
+     border-color: yellow;
+     margin-bottom: 20px;
+}
