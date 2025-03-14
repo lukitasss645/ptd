@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.lilita{
+    font-family: "Lilita One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.banner{
+    width: 100%;
+    height: 360px;
+}
+
+nav{
+    background-color: rgb(136, 106, 165);
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.titulo-articulo{
+    color: turquoise;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.foto {
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+}
+
+.descripcion{
+    font-size: 22px;
+    text-align: justify;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.articulo{
+    margin-bottom: 50px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.boton{
+    text-decoration: none;
+    width: 50px;
+    padding: 10px;
+    background-color: aqua;
+    color: white;
+    font-weight: bolder;
+}
+
+.boton:hover{
+    background-color: yellow;
+}
+
+.parte-derecha{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.titulo-derecha{
+    color: turquoise;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.link-derecha {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+footer{
+    display: grid;
+    grid-template-areas: "footer-izquierda footer-derecha"
+                         "footer-abajo footer-abajo";
+    border: 1px solid red;
+    padding-bottom: 10px;
+    padding: 20px;
+    background-color: rgb(207, 9, 124);
+    color: white;
+}
+
+.footer-izquierda{
+    grid-area: footer-izquierda;
+    width: 800px;
+    font-size: 20px;
+}
+
+
+.footer-derecha{
+    grid-area: footer-derecha;
+    width: 400px;
+    font-size: 25px;
+    text-align: right;
+}
+
+.link-footer{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-abajo{
+    grid-area: footer-abajo;
+    font-size: 30px;
+    
+}
+
+
+.titulo-footer-izquierda{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+/* ************  NOSOTROS ************* */
+.main-nosotros {
+    display: block;
+    margin-inline: auto;
+    width: 90%;
+}
+
+.nuestro-equipo{
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+.grid-container-tarjetas {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    margin-inline: auto;
+    margin-bottom: 50px;
+}
+
+.tarjeta{
+    background-color: red;
+    width: 300px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+.tarjeta-arriba{
+    background-image: url("../IMG/sunrise-3533173_1280.jpg");
+    height: 100px;
+    
+}
+
+
+
+.tarjeta-abajo{
+    background-color: aqua;
+    padding-bottom: 30px;
+}
+
+
+
+.foto-tarjeta{
+    display: block;
+    position: relative;
+    top: -50px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nombre {
+    margin-top: -30px;
+}
+
+.numero,
+.ico-numero,
+.correo,
+.ico-correo {
+    display: inline-block;
+}
+
+.parte-izquierda-1{
+    background-color: aqua;
+}
